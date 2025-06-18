@@ -42,6 +42,7 @@ export default function LoginPage() {
             if (token) {
                 localStorage.setItem('token', token);
             }
+            alert('Đăng nhập thành công');
         }
         catch (error) {
             console.error("Login failed!", error);
